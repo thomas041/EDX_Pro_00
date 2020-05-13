@@ -1,46 +1,60 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>My First-Site</title>
-    <link rel="stylesheet" href="static/style.css">
-</head>
-<body>
-<div class="display">
-    <ul style="list-style-type:none;">
-        <li class="header">
-            <a href="./index.html">Back to HomePage</a>
-        </li>
-        <li class="header">
-            <a href="./mission.html">My Mission</a>
-        </li>
-        <li class="header">
-            <a href="./todolist.html">To-Do-List</a>
-        </li>
-    </ul>
+    <head>
+        <!-- CSS only -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
-    <h1>This is a Profile Page</h1>
+        <title>My First-Site</title>
+        <link rel="stylesheet" href="static/style.css">
+    </head>
+    <body>
+        <div class="jumbotron">
+                <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+                    <a class="navbar-brand" href="#">Morgz-Site</a>
 
-    <table class="tblbrd">
-        <tr>
-            <th>First Name</th>
-            <th>Second Name</th>
-            <th>Date of Birth</th>
-            <th>Hobbies</th>
-        </tr>
-        <tr>
-            <td>Thomas</td>
-            <td>Morgan</td>
-            <td>4th March 1970</td>
-            <td>
-                <ol id="ol-table">
-                    <li class="tableli">Coding</li>
-                    <li class="tableli">Gardening</li>
-                    <li class="tableli">Walking</li>
-                    <li class="tableli">Family Time</li>
-                </ol>
-            </td>
-        </tr>
-    </table>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto">
 
-</div>
-</body>
+                            <li class="nav-item ">
+                                <a class="nav-link"  href="./index.html">Home</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="./mission.html">My Mission</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="./todolist.html" >To-Do-List</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                </nav>
+
+
+            <h1>This is a Profile Page</h1>
+
+            <table class="tblbrd">
+                <tr>
+                    <th>First Name</th>
+                    <th>Second Name</th>
+                    <th>Date of Birth</th>
+                    <th>Hobbies</th>
+                </tr>
+                <tr>
+                    <td>Thomas</td>
+                    <td>Morgan</td>
+                    <td>4th March 1970</td>
+                    <td>
+                        <ol id="ol-table">
+                            <li class="tableli">Coding</li>
+                            <li class="tableli">Gardening</li>
+                            <li class="tableli">Walking</li>
+                            <li class="tableli">Family Time</li>
+                        </ol>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </body>
+</html>

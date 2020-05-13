@@ -1,10 +1,13 @@
 body {
     background-color: lightgrey;
-    margin-left: 250px;
+    padding-top: 150px;
+    margin-left: 150px;
+    margin-right: 150px;
 }
 
-div.display{
-    width: 75%;
+#homepageh1{
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 h1{color: #2b505d;
@@ -12,34 +15,21 @@ h1{color: #2b505d;
     font-size: 20px;
 }
 
-ul{ background-color: darkgrey;
-    border-width:2px;
-    padding: 20px;
-    list-style-type:none;
-
-}
-
-ul li{
-    padding: 1px 50px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-}
-
 a {
     font-family: "Times New Roman", Times, serif;
     color: black;
     text-decoration: none;
 }
+
 img.center {
-    width: 50%;
+    width: 40%;
     display: block;
     margin: 0 auto;
 }
 
 .tblbrd td{
     border: 1px solid black;
-    /*padding: 2px 2px;*/
+    padding: 2px 2px;
     text-align: center;
 }
 .tableli{
