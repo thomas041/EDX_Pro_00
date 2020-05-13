@@ -1,0 +1,95 @@
+body {
+    background-color: lightgrey;
+    margin-left: 250px;
+}
+
+div.display{
+    width: 75%;
+}
+
+h1{color: #2b505d;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+}
+
+ul{ background-color: darkgrey;
+    border-width:2px;
+    padding: 20px;
+    list-style-type:none;
+
+}
+
+ul li{
+    padding: 1px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a {
+    font-family: "Times New Roman", Times, serif;
+    color: black;
+    text-decoration: none;
+}
+img.center {
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}
+
+.tblbrd td{
+    border: 1px solid black;
+    /*padding: 2px 2px;*/
+    text-align: center;
+}
+.tableli{
+    list-style-type:none;
+    border-collapse: collapse;
+    padding: 2px 2px;
+    display: inline-block;
+    text-align: center;
+}
+
+#ttd-div{
+    width: 50%;
+    background-color: lightgreen;
+    margin: 50px 40px 30px 20px;
+    padding: 2px;
+
+/*
+    margin-top: 50px;
+    margin-right: 40px;
+    margin-bottom: 30px;
+    margin-left: 20px;
+*/
+
+}
+
+#thingstodo{
+    font-size: larger;
+    font-family: verdana;
+    color: mediumpurple;
+}
+
+/*
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+}*/
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+
+    ul li {
+        text-align: center;
+        text-decoration: none;
+    }
+
+    ul{ background-color: orangered;
+        border-width:2px;
+        padding: 20px;
+    }
+}
