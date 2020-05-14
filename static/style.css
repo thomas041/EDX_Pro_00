@@ -10,7 +10,8 @@ body {
     padding-bottom: 10px;
 }
 
-h1{color: #2b505d;
+h1 {
+    color: #2b505d;
     font-family: "Times New Roman", Times, serif;
     font-size: 20px;
 }
@@ -22,7 +23,7 @@ a {
 }
 
 img.center {
-    width: 40%;
+    width: 50%;
     display: block;
     margin: 0 auto;
 }
@@ -44,7 +45,7 @@ img.center {
     width: 50%;
     background-color: lightgreen;
     margin: 50px 40px 30px 20px;
-    padding: 2px;
+    padding: 5px;
 
 /*
     margin-top: 50px;
@@ -57,7 +58,7 @@ img.center {
 
 #thingstodo{
     font-size: larger;
-    font-family: verdana;
+    font-family: "Times New Roman", Times, serif;
     color: mediumpurple;
 }
 
@@ -81,5 +82,12 @@ img.center {
     ul{ background-color: orangered;
         border-width:2px;
         padding: 20px;
+    }
+
+    #ttd-div {
+
+        background-color: white;
+        margin: 5px 4px 3px 2px;
+        padding: 5px;
     }
 }
