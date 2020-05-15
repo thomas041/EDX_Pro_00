@@ -1,6 +1,12 @@
+/*
+$fontfam = .grid-item #thingstodo a h1
+
+font-family: "Times New Roman", Times, serif;
+*/
+
 body {
     background-color: lightgrey;
-    padding-top: 150px;
+    padding-top: 100px;
     margin-left: 150px;
     margin-right: 150px;
 }
@@ -23,7 +29,7 @@ a {
 }
 
 img.center {
-    width: 50%;
+    width: 35%;
     display: block;
     margin: 0 auto;
 }
@@ -46,14 +52,6 @@ img.center {
     background-color: lightgreen;
     margin: 50px 40px 30px 20px;
     padding: 5px;
-
-/*
-    margin-top: 50px;
-    margin-right: 40px;
-    margin-bottom: 30px;
-    margin-left: 20px;
-*/
-
 }
 
 #thingstodo{
@@ -62,14 +60,39 @@ img.center {
     color: mediumpurple;
 }
 
-/*
-@media only screen and (max-width: 600px) {
-    body {
-        background-color: lightblue;
-    }
-}*/
 
-@media only screen and (max-width: 600px) {
+#movieform input[type=text]{
+    background-color: lightpink;
+}
+
+#movieform input[type=number]{
+    background-color: lightgreen;
+}
+#movieform:hover input[type=number]{
+    background-color: purple;
+}
+
+#grid{
+    background-color: lightgreen;
+    display: grid;
+    padding: 20px;
+    grid-column-gap: 20px;
+    grid-row-gap: 10px;
+    grid-template-columns: 200px 200px auto;
+}
+
+.grid-item{
+    font-size: 20px;
+    background-color: lightpink;
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+}
+
+
+@media only screen and (max-width: 599px) {
+
+
+
     body {
         background-color: lightblue;
     }
@@ -79,15 +102,26 @@ img.center {
         text-decoration: none;
     }
 
-    ul{ background-color: orangered;
+    ul{
+        background-color: orangered;
         border-width:2px;
         padding: 20px;
     }
 
     #ttd-div {
-
-        background-color: white;
+        background-color: lightyellow;
         margin: 5px 4px 3px 2px;
         padding: 5px;
     }
+
+    .grid-item{
+        background-color: lightpink;
+        font-size: 10px;
+        display: grid;
+        padding: 2px;
+        grid-column-gap: 10px;
+        grid-row-gap: 1px;
+        grid-template-columns: auto auto auto;
+    }
+
 }

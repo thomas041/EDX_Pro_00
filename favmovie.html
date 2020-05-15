@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html>
 <head>
+
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <title>My First-Site</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="static/style.css">
 </head>
 <body>
+
 <div class="jumbotron">
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="#">Morgz-Site</a>
@@ -18,49 +20,43 @@
                     <a class="nav-link" href="./index.html">Home</a>
                 </li>
 
-                <li class="nav-item">
-                    <a class="nav-link" href="./mission.html">My Mission</a>
-                </li>
-
                 <li class="nav-item ">
                     <a class="nav-link" href="./profile.html">My Profile <span class="sr-only">(current)</span></a>
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="./favmovie.html" >Favourite-Movie</a>
+                    <a class="nav-link" href="./mission.html">My Mission</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="./todolist.html" >To-Do-List</a>
                 </li>
 
             </ul>
         </div>
-
     </nav>
 
-    <h1>Things To Do</h1>
 
-    <div id="ttd-div">
-        <ol id="thingstodo">
-            <li>Take over the World!</li>
-            <li>Write a song about squirrels and release to the World.</li>
-            <li>Bring peace, love and happiness to all.</li>
-            <li>Learn to be a top coder of all the tgit commit -am hings.</li>
-        </ol>
-    </div>
+            <div id="movieform">
+                <form>
+                    <label>
+                        <input name="name" type="text" placeholder="Name">
+                    </label>
+                    <label>
+                        <input name="name" type="number" placeholder="Age">
+                    </label>
+                    <label>
+                        <input name="name" type="text" maxlength="555" placeholder="Favourite Movie">
+                    </label>
+                    <label>
+                        <input name="name" type="text" maxlength="555" placeholder="Favourite Movie Scene">
+                    </label>
+                    <label>
+                        <textarea name="name"  rows="4" cols="50"></textarea>
+                    </label>
+                </form>
+            </div>
 
-    <div id="grid">
-        <div class="grid-item">1</div>
-        <div class="grid-item">2</div>
-        <div class="grid-item">3</div>
-        <div class="grid-item">4</div>
-        <div class="grid-item">5</div>
-        <div class="grid-item">6</div>
-        <div class="grid-item">7</div>
-        <div class="grid-item">8</div>
-        <div class="grid-item">9</div>
-        <div class="grid-item">10</div>
-        <div class="grid-item">11</div>
-        <div class="grid-item">12</div>
-    </div>
-
-</div>
 </div>
 </body>
+</html>
