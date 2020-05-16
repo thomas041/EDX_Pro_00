@@ -1,0 +1,128 @@
+$fontfam: "Times New Roman", Times, serif;
+
+#thingstodo a h1{
+  font-family: $fontfam;
+}
+
+body {
+  background-color: lightgrey;
+  padding-top: 100px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+#homepageh1{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+h1 {
+  color: #2b505d;
+  font-size: 20px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+img.center {
+  width: 35%;
+  display: block;
+  margin: 0 auto;
+}
+
+.tblbrd td{
+  border: 1px solid black;
+  padding: 2px 2px;
+  text-align: center;
+}
+.tableli{
+  list-style-type:none;
+  border-collapse: collapse;
+  padding: 2px 2px;
+  display: inline-block;
+  text-align: center;
+}
+
+#ttd-div{
+  width: 50%;
+  background-color: lightgreen;
+  margin: 50px 40px 30px 20px;
+  padding: 5px;
+}
+
+#thingstodo{
+  font-size: larger;
+  color: mediumpurple;
+}
+
+#movieform input[type=text]{
+  background-color: lightpink;
+}
+
+#movieform input[type=number]{
+  background-color: lightgreen;
+}
+#movieform:hover input[type=number]{
+  background-color: lightblue;
+}
+
+//#grid{
+//  background-color: lightgreen;
+//  display: grid;
+//  padding: 20px;
+//  grid-column-gap: 20px;
+//  grid-row-gap: 10px;
+//  grid-template-columns: auto auto auto;
+//}
+
+//.grid-item{
+//  font-size: 20px;
+//  background-color: lightpink;
+//  text-align: center;
+//  font-family: "Times New Roman", Times, serif;
+//}
+
+.container{
+  margin: 1px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container > div {
+  background-color: lightpink;
+  font-size: 20px;
+  margin: 10px;
+  padding: 15px;
+  width: 200px;
+}
+
+@media only screen and (max-width: 599px) {
+
+  body {
+    background-color: lightblue;
+  }
+
+  ul li {
+    text-align: center;
+    text-decoration: none;
+  }
+
+  ul{
+    background-color: orangered;
+    border-width:2px;
+    padding: 20px;
+  }
+
+  #ttd-div {
+    background-color: lightyellow;
+    margin: 5px 4px 3px 2px;
+    padding: 5px;
+  }
+
+  .container > div {
+    background-color: lightgreen;
+  }
+
+}
