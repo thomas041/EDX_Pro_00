@@ -68,22 +68,6 @@ img.center {
   background-color: lightblue;
 }
 
-//#grid{
-//  background-color: lightgreen;
-//  display: grid;
-//  padding: 20px;
-//  grid-column-gap: 20px;
-//  grid-row-gap: 10px;
-//  grid-template-columns: auto auto auto;
-//}
-
-//.grid-item{
-//  font-size: 20px;
-//  background-color: lightpink;
-//  text-align: center;
-//  font-family: "Times New Roman", Times, serif;
-//}
-
 .container{
   margin: 1px;
   display: flex;
@@ -116,13 +100,13 @@ img.center {
   }
 
   #ttd-div {
-    background-color: lightyellow;
+    background-color: transparent;
     margin: 5px 4px 3px 2px;
     padding: 5px;
   }
 
   .container > div {
-    background-color: lightgreen;
+    //background-color: lightgreen;
+    font-size: 10px;
   }
-
 }

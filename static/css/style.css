@@ -76,19 +76,16 @@ img.center {
     text-decoration: none; }
 
   ul {
+    background-color: orangered;
     border-width: 2px;
     padding: 20px; }
 
   #ttd-div {
+    background-color: transparent;
     margin: 5px 4px 3px 2px;
     padding: 5px; }
 
   .container > div {
-    background-color: lightgreen; } }
+    font-size: 10px; } }
 
-@media only screen and (max-width: 400px) {
-  #thingstodo{
-    background-color: orangered;
-  }
-
-}
+/*# sourceMappingURL=style.css.map */
