@@ -78,7 +78,7 @@ img.center {
     padding: 20px;
     grid-column-gap: 20px;
     grid-row-gap: 10px;
-    grid-template-columns: 200px 200px auto;
+    grid-template-columns: auto auto auto;
 }
 
 .grid-item{
@@ -88,10 +88,22 @@ img.center {
     font-family: "Times New Roman", Times, serif;
 }
 
+.container{
+    margin: 1px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container > div {
+    background-color: lightpink;
+    font-size: 20px;
+    margin: 10px;
+    padding: 15px;
+    width: 200px;
+
+}
 
 @media only screen and (max-width: 599px) {
-
-
 
     body {
         background-color: lightblue;
@@ -114,14 +126,18 @@ img.center {
         padding: 5px;
     }
 
-    .grid-item{
-        background-color: lightpink;
-        font-size: 10px;
-        display: grid;
-        padding: 2px;
-        grid-column-gap: 10px;
-        grid-row-gap: 1px;
-        grid-template-columns: auto auto auto;
+    /*.grid-item{*/
+    /*    background-color: lightpink;*/
+    /*    font-size: 10px;*/
+    /*    display: grid;*/
+    /*    padding: 2px;*/
+    /*    grid-column-gap: 10px;*/
+    /*    grid-row-gap: 1px;*/
+    /*    grid-template-columns: auto auto auto;*/
+    /*}*/
+
+    .container > div {
+        background-color: lightgreen;
     }
 
 }
