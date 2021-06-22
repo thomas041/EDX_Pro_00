@@ -2,18 +2,20 @@
   font-family: "Times New Roman", Times, serif; }
 
 body {
-  background-color: lightgrey;
+  background-color: darkgrey;
   padding-top: 100px;
   margin-left: 150px;
   margin-right: 150px; }
 
-#homepageh1 {
-  padding-top: 10px;
+#homepage > h1 {
+  padding-top: 110px;
   padding-bottom: 10px; }
 
 h1 {
   color: #2b505d;
-  font-size: 20px; }
+  font-size: 20px;
+  text-align: center
+  }
 
 a {
   color: black;
@@ -71,9 +73,12 @@ img.center {
   body {
     background-color: lightblue; }
 
-  ul li {
+  li.mainpage{
+
     text-align: center;
-    text-decoration: none; }
+    text-decoration: none;
+    list-style-type: none;
+  }
 
   ul {
     background-color: orangered;
@@ -88,4 +93,4 @@ img.center {
   .container > div {
     font-size: 10px; } }
 
-/*# sourceMappingURL=style.css.map */
+
